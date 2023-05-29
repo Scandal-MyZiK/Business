@@ -1,0 +1,37 @@
+.number{
+    background: #F7F7F7;
+    max-width: 1100px;
+    padding: 58px 130px;
+    margin: 0 auto;
+    margin-top: -170px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    &__block{
+        text-align: center;
+    }
+    &__year{
+        color: #F7654A;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 107px;
+        text-transform: uppercase;
+    }
+    &__description{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 53px;
+        text-transform: uppercase;
+        color: #000000;
+        
+    }
+    &__desc{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #999999;
+    }
+}

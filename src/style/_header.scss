@@ -1,0 +1,52 @@
+.header{
+    background-image: url('../image/header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0 320px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__logo{
+        z-index: 2;
+    }
+    &__center{
+        text-align: center;
+        margin-top: 112px;
+    }
+    &__title{
+        max-width: 734px;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin: 0 auto;
+    }
+}
+
+.header-menu{
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transform: translateY(-150%);
+        transition: all 0.5s;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        text-align: center;
+        &.active {
+            transform: translateY(0);
+            z-index: 1;
+        }
+    }
+}
