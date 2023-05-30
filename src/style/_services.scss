@@ -1,0 +1,38 @@
+.services{
+    padding: 150px 0;
+    &__title{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 53px;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 66px;
+    }
+    &__inner{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+    &__block{
+        padding: 60px 88px;
+        text-align: center;
+        max-width: 350px;
+        background-color: #F7F7F7;
+
+    }
+    &__icon{
+        max-width: 60px;
+        object-fit: contain;
+        margin-bottom: 30px;
+    }
+    &__text{
+        max-width: 172px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 31px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+}
