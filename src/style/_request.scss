@@ -5,6 +5,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 28px;
+        @media (max-width: 614px) {
+            gap: 20px;
+        }
+        @media (max-width: 643px) {
+            justify-content: center;
+        }
     }
     &__text{
         display: flex;
@@ -15,9 +23,31 @@
         line-height: 71px;
         letter-spacing: 0.02em;
         text-transform: uppercase;
+        @media (max-width: 867px) {
+            font-size: 40px;
+        }
+        @media (max-width: 760px) {
+            font-size: 34px;
+            line-height: 40px;
+        }
+        @media (max-width: 689px) {
+            text-align: center;
+        }
+        @media (max-width: 422px) {
+            font-size: 25px;
+        }
         &--small{
             font-size: 24px;
             line-height: 36px;
+            @media (max-width: 848px) {
+                font-size: 20px;
+            }
+            @media (max-width: 689px) {
+                font-size: 17px;
+            }
+            @media (max-width: 422px) {
+                font-size: 14px;
+            }
         }
     }
     &__btn{
@@ -25,12 +55,18 @@
         display: flex;
         align-items: center;
         gap: 16px;
+        @media (max-width: 724px) {
+            padding: 10px 14px;
+        }
+        @media (max-width: 422px) {
+            padding: 6px 10px;
+        }
         &:hover{
-            background-color: #ebc7c1;
+            background-color: #dbdbdb;
             transition: 0.3s;
         }
         &:active{
-            background-color: #b4452f;
+            background-color: #ffc6bb;
         }
     }
     &__icon{

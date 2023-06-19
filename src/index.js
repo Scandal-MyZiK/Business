@@ -1,3 +1,4 @@
+import 'swiper/css';
 import 'normalize.css';
 import './index.html';
 import './style/style.scss';

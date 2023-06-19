@@ -3,5 +3,8 @@
     flex-wrap: wrap;
     &__img{
         width: 25%;
+        @media (max-width: 600px) {
+            width: 50%;
+        }
     }
 }

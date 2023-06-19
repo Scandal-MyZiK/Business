@@ -11,11 +11,17 @@
         font-size: 16px;
         line-height: 22px;
         font-family: 'OpenSans' ,sans-serif;
+        @media (max-width: 600px) {
+            font-size: 14px;
+        }
     }
     &__link{
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
         font-family: 'OpenSans' ,sans-serif;
+        @media (max-width: 600px) {
+            font-size: 14px;
+        }
     }
 }
